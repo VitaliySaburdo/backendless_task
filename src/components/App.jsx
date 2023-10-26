@@ -1,9 +1,16 @@
 import React from "react";
-import { Tab } from "./Tab";
-import tabsData from "../db/tabs.json";
+// import tabsData from "../db/tabs.json";
+import { Route, Routes } from "react-router-dom";
+import DummyTable from "./dummyTable";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Routes>
+        <Route index component={<DummyTable />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
