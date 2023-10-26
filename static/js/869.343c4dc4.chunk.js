@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[869],{869:function(n,e,u){u.r(e),u.d(e,{SharedLayout:function(){return c}});var r=u(689),a=u(791),s=u(184),c=function(){return(0,s.jsx)(s.Fragment,{children:(0,s.jsx)(a.Suspense,{fallback:null,children:(0,s.jsx)(r.j3,{})})})}}}]);
+//# sourceMappingURL=869.343c4dc4.chunk.js.map
