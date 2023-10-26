@@ -1,12 +1,7 @@
 const DummyTable = () => {
   return (
     <>
-      <table>
-        <tr>
-          <td>Dummy</td>
-          <td>Table</td>
-        </tr>
-      </table>
+      <h1>Tables DummyTable</h1>
     </>
   );
 };
