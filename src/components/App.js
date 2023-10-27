@@ -10,9 +10,6 @@ function App() {
     setTabs(tabsData);
   }, []);
 
-  const openTab = tabs.find((tab) => tab.order === 0);
-  const defaultTabId = openTab ? openTab.id : null;
-
   return (
     <>
       <nav>
@@ -23,11 +20,11 @@ function App() {
         ))}
       </nav>
       <Routes>
-        <Route index element={<Navigate to={defaultTabId} />} />
+        <Route index element={<Navigate to={"/dummyTable"} />} />
         {tabs.map((tab) => (
           <Route
             key={tab.id}
-            path={`/${tab.title}`}
+            path={`/${tab.id}`}
             element={<TabContentLoader tab={tab} />}
           />
         ))}

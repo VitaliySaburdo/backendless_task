@@ -1,4 +1,4 @@
-const dummyList = () => {
+const DummyList = () => {
   return (
     <>
       <h2>dummyList</h2>
@@ -6,4 +6,4 @@ const dummyList = () => {
   );
 };
 
-export default dummyList;
+export default DummyList;

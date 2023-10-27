@@ -1,4 +1,4 @@
-const dummyChart = () => {
+const DummyChart = () => {
   return (
     <>
       <h2>dummyChart</h2>
@@ -6,4 +6,4 @@ const dummyChart = () => {
   );
 };
 
-export default dummyChart;
+export default DummyChart;
