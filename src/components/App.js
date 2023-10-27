@@ -23,14 +23,14 @@ function App() {
         ))}
       </nav>
       <Routes>
+        <Route index element={<Navigate to={defaultTabId} />} />
         {tabs.map((tab) => (
           <Route
             key={tab.id}
-            path={tab.path}
+            path={`/${tab.title}`}
             element={<TabContentLoader tab={tab} />}
           />
         ))}
-        <Route index element={<Navigate to={defaultTabId} />} />
       </Routes>
     </>
   );
