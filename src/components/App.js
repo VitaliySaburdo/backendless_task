@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      <nav>
+      <nav style={{ display: "flex", gap: "20px" }}>
         {tabs.map((tab) => (
-          <NavLink key={tab.id} to={tab.id}>
+          <NavLink style={{ textDecoration: "none" }} key={tab.id} to={tab.id}>
             {tab.title}
           </NavLink>
         ))}
