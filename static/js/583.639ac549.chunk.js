@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[583],{583:function(n,r,e){e.r(r),e.d(r,{DefaultTabLoader:function(){return o}});var t=e(689),u=e(184),o=function(n){var r=n.tabs,e=n.component,o=n.redirectTo,a=void 0===o?"/":o;return r.find((function(n){return 0===n.order}))?(0,u.jsx)(t.Fg,{to:a}):e}}}]);
-//# sourceMappingURL=583.639ac549.chunk.js.map
